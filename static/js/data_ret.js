@@ -1,4 +1,4 @@
-socket = io.connect("https://89113bb62236.ngrok.io");
+socket = io.connect("http://localhost:5000");
 socket.on('connect', () => {
     socket.emit('get_data')
 });
