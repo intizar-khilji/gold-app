@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+    <div>
+        <h1>In USD ($)</h1>
+        <table style="width: 100%;"> 
+            <tr>
+                <th style="text-align:left">SPREAD PROFILE</th>
+                <td id='profile1' style="text-align: center;">retrieving...</td>
+            </tr>
+            <tr>
+                <th style="text-align:left">BID SPREAD</th>
+                <td id='bidspread1' style="text-align: center;">retrieving...</td>
+            </tr>
+            <tr>
+                <th style="text-align:left">ASK SPREAD</th>
+                <td id='askspread1' style="text-align: center;">retrieving...</td>
+            </tr>
+            <tr>
+                <th style="text-align:left">BID</th>
+                <td id='bid1' style="text-align: center;">retrieving...</td>
+            </tr>
+            <tr>
+                <th style="text-align:left">ASK</th>
+                <td id='ask1' style="text-align: center;">retrieving...</td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <table style="width: 100%;"> 
+            <tr>
+                <th style="text-align:left">SPREAD PROFILE</th>
+                <td id='profile2' style="text-align: center;">retrieving...</td>
+            </tr>
+            <tr>
+                <th style="text-align:left">BID SPREAD</th>
+                <td id='bidspread2' style="text-align: center;">retrieving...</td>
+            </tr>
+            <tr>
+                <th style="text-align:left">ASK SPREAD</th>
+                <td id='askspread2' style="text-align: center;">retrieving...</td>
+            </tr>
+            <tr>
+                <th style="text-align:left">BID</th>
+                <td id='bid2' style="text-align: center;">retrieving...</td>
+            </tr>
+            <tr>
+                <th style="text-align:left">ASK</th>
+                <td id='ask2' style="text-align: center;">retrieving...</td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <table style="width: 100%;"> 
+            <tr>
+                <th style="text-align:left">SPREAD PROFILE</th>
+                <td id='profile3' style="text-align: center;">retrieving...</td>
+            </tr>
+            <tr>
+                <th style="text-align:left">BID SPREAD</th>
+                <td id='bidspread3' style="text-align: center;">retrieving...</td>
+            </tr>
+            <tr>
+                <th style="text-align:left">ASK SPREAD</th>
+                <td id='askspread3' style="text-align: center;">retrieving...</td>
+            </tr>
+            <tr>
+                <th style="text-align:left">BID</th>
+                <td id='bid3' style="text-align: center;">retrieving...</td>
+            </tr>
+            <tr>
+                <th style="text-align:left">ASK</th>
+                <td id='ask3' style="text-align: center;">retrieving...</td>
+            </tr>
+        </table>
+
+        <br><br>
+
+    </div>
+</body>
+
+<script src="{{ url_for('static', filename = 'js/socket_io.js')}}"></script>
+<script src="{{ url_for('static', filename = 'js/jquery_min.js')}}"></script>
+<script src="{{ url_for('static', filename = 'js/data_ret.js') }}"></script>
+
+</html>
